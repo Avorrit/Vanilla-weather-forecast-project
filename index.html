@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Vanilla search weather app</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="outter-border">
+    <div class="weather-section">
+    <header>
+        <main>
+            <form class="search-city-section">
+                <input type="search" required id="search-box" placeholder="Enter a city...">
+                <input type="submit" id="submit-button" value="Search">
+            </form>
+            <p id="warning-text"></p>
+            <div class="current-weather">
+                <div class="primary-details">
+                        <h1 id="city-name">
+                    </h1>
+                <div class="inner-temp-box">
+                    <img  id="weather-icon">
+                    <h2 id="current-temperature"></h2>
+                </div>
+                </div>
+
+                <div class="weather-forecast-section">
+
+                    <div class="weather-forecast-day">
+                        <div class="weather-forecast-date">Tue</div>
+                        <div class="weather-forecast-icon">🌤️</div>
+                        <div class="weather-forecast-temperatures">
+                          <div class="weather-forecast-temperature">
+                            <strong>15º</strong>
+                          </div>
+                          <div class="weather-forecast-temperature">9º</div>
+                    </div>
+                    </div>
+
+                    <div class="weather-forecast-day">
+                        <div class="weather-forecast-date">Tue</div>
+                        <div class="weather-forecast-icon">🌤️</div>
+                        <div class="weather-forecast-temperatures">
+                            <div class="weather-forecast-temperature">
+                                <strong>15º</strong>
+                             </div>
+                              <div class="weather-forecast-temperature">9º</div>
+                        </div>
+                    </div>
+
+                    <div class="weather-forecast-day">
+                            <div class="weather-forecast-date">Tue</div>
+                            <div class="weather-forecast-icon">🌤️</div>
+                            <div class="weather-forecast-temperatures">
+                              <div class="weather-forecast-temperature">
+                                <strong>15º</strong>
+                              </div>
+                              <div class="weather-forecast-temperature">9º</div>
+                            </div>
+                    </div>
+                            
+                    <div class="weather-forecast-day">
+                            <div class="weather-forecast-date">Tue</div>
+                            <div class="weather-forecast-icon">🌤️</div>
+                            <div class="weather-forecast-temperatures">
+                                <div class="weather-forecast-temperature">
+                                    <strong>15º</strong>
+                                </div>
+                                  <div class="weather-forecast-temperature">9º</div>
+                                </div>
+                    </div>
+                        
+                    <div class="weather-forecast-day">
+                            <div class="weather-forecast-date">Tue</div>
+                            <div class="weather-forecast-icon">🌤️</div>
+                            <div class="weather-forecast-temperatures">
+                              <div class="weather-forecast-temperature">
+                                <strong>15º</strong>
+                              </div>
+                              <div class="weather-forecast-temperature">9º
+                              </div>
+                </div>
+                </div>
+                </div>
+
+                <p class="weather-detail">
+                    <span id="current-date"></span> 
+                    <span id="current-time"></span>,
+                    <span id="current-condition"></span>
+
+                    <br />
+                    Humidity: 
+                    <span id="humidity"></span>
+                    , Wind:
+                    <span id="wind-speed"></span>
+                </p>
+            </div>
+        </main>
+    </header>
+    <footer>
+        <hr>
+        This project was coded by 
+        <a href="https://github.com/Avorrit" target="_blank">
+            Ghazal Jamali
+        </a>
+        , is available on
+        <a href="https://github.com/" target="_blank">
+            GitHub
+        </a>
+        and hosted by 
+        <a href="https://vercel.com/" target="_blank">
+            Vercel
+        </a>
+    </footer>
+</div>
+</div>
+
+<script src="src/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+html {
+    height: 100%;
+    background: #f1f1f1;
+}
+
+body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.weather-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px  50px;
+    margin: 20px 15px;
+    max-width: 650px;
+    height: 500px;
+    border-radius: 13px;
+    box-shadow: 6px 6px 12px rgba(163, 162, 156, 0.4);
+
+}
+
+hr {
+    border: 1px solid rgba(255,140,158,0.4);
+    margin: 15px 0;
+}
+footer {
+    color: #8f8f8f;
+    font-size: 13px;
+    text-align: center;
+}
+
+.weather-detail {
+    color: #8b8b8b;
+    font-size: 19px;
+    margin-top: 10%;
+    min-height: 66px;
+}
+
+.outter-border {
+    margin: 80px auto;
+    background: rgb(255,140,158);
+    background: linear-gradient(325deg, rgba(255,140,158,1) 20%, rgba(255,218,118,1) 50%, rgba(180,214,205,1) 80%);
+    padding: 12px 19px;
+    max-width: 680px;
+    border-radius: 16px;
+    box-shadow: 6px 6px 12px rgba(163, 162, 156, 0.4);
+}
+
+.search-city-section {
+    margin: 15px auto;
+    display: flex;
+    align-content: center;
+    align-items: stretch;
+}
+
+#search-box {
+    padding-inline: 18px;
+    border: 1px solid #FF8C9E;
+    border-radius: 30px;
+    font-size: 19px;
+    width: 80%;
+}
+
+#warning-text {
+    display: inline;
+    margin: 8px;
+    color: #FF4E88;
+    width: 170px;
+    height: 20px;
+}
+
+#submit-button {
+    padding: 10px 17px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: none;
+    font-weight: 900;
+    background-color: #FF8C9E;
+    color: white;
+    text-shadow: rgba(136, 136, 136, 0.5) 1px 2px 3px;
+}
+
+
+a {
+    color: #99b8af;
+}
+
+a:hover {
+    color: #FF4E88;
+}
+
+#humidity {
+    color: #FF4E88;
+    font-weight: 600;
+}
+#wind-speed {
+    color: #FF4E88;
+    font-weight: 600;
+}
+
+.primary-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-temp-box {
+    display: flex;
+    justify-self: end;
+    align-items: center;
+}
+
+#city-name {
+    margin: 0;
+    font-size: 50px;
+}
+
+#current-temperature {
+    margin: 0;
+    font-size: 70px;
+    sup {
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
+
+#weather-icon {
+    display: flex;
+    width: 100px;
+}
+
+.weather-forecast-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .weather-forecast-date {
+    text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .weather-forecast-icon {
+    font-size: 38px;
+    text-align: center;
+  }
+  .weather-forecast-temperatures {
+    text-align: center;
+    color: #f65282;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .weather-forecast-temperature {
+    padding: 0 10px;
+  }
