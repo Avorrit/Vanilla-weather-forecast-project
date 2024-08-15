@@ -15,11 +15,13 @@
     <div class="weather-section">
     <header>
         <main>
+            <div class="outter-search-section">
             <form class="search-city-section">
                 <input type="search" required id="search-box" placeholder="Enter a city...">
                 <input type="submit" id="submit-button" value="Search">
             </form>
             <p id="warning-text"></p>
+        </div>
             <div class="current-weather">
                 <div class="primary-details">
                         <h1 id="city-name">
@@ -29,7 +31,17 @@
                     <h2 id="current-temperature"></h2>
                 </div>
                 </div>
+                <p class="weather-detail">
+                    <span id="current-date"></span> 
+                    <span id="current-time"></span>,
+                    <span id="current-condition"></span>
 
+                    <br />
+                    Humidity: 
+                    <span id="humidity"></span>
+                    , Wind:
+                    <span id="wind-speed"></span>
+                </p>
                 <div class="weather-forecast-section">
 
                     <div class="weather-forecast-day">
@@ -88,23 +100,12 @@
                 </div>
                 </div>
                 </div>
-
-                <p class="weather-detail">
-                    <span id="current-date"></span> 
-                    <span id="current-time"></span>,
-                    <span id="current-condition"></span>
-
-                    <br />
-                    Humidity: 
-                    <span id="humidity"></span>
-                    , Wind:
-                    <span id="wind-speed"></span>
-                </p>
             </div>
         </main>
     </header>
     <footer>
         <hr>
+        <p>
         This project was coded by 
         <a href="https://github.com/Avorrit" target="_blank">
             Ghazal Jamali
@@ -117,6 +118,7 @@
         <a href="https://vercel.com/" target="_blank">
             Vercel
         </a>
+    </p>
     </footer>
 </div>
 </div>
